@@ -51,6 +51,10 @@ bld/
 # Visual Studio cache/options directory
 .vs/
 
+# Cache directories
+.cache/
+.cache
+
 # Compiled files
 *.exe
 *.dll
