@@ -1,1 +1,1 @@
-A repo that I use as a starting point for my CPP projects, using cmake
+A repo where I learn to use CPPUTest
