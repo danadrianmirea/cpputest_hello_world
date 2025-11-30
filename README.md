@@ -1,0 +1,1 @@
+A repo that I use as a starting point for my CPP projects, using cmake
