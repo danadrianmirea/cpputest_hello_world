@@ -6,10 +6,7 @@
 class ExternalDPInterfaceProvider : public IDiscountProviderInterface
 {
 public:
-    int getDiscountPercent() override
-    {
-        return 20;
-    }
+    int getDiscountPercent() override;
 };
 
 #endif
