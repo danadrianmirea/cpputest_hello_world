@@ -8,6 +8,8 @@ add_custom_target(run
 set(SOURCES
    main.cpp
    add.cpp
+   mock_example.cpp
+   external_discount.cpp
 )
 #message(STATUS "The value of SOURCES is: ${SOURCES}")
 

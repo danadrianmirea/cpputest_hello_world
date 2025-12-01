@@ -1,10 +1,12 @@
 # CppUTest should already be available from root CMakeLists.txt
 
 # Create test executable
-# Include the add function implementation
+# Include the code under test (add.cpp, mock_example.cpp)
 add_executable(${PROJECT_NAME}_tests
     test_add.cpp
+    test_mock.cpp
     ${CMAKE_SOURCE_DIR}/code/add.cpp
+    ${CMAKE_SOURCE_DIR}/code/mock_example.cpp
 )
 
 # Link against CppUTest libraries
